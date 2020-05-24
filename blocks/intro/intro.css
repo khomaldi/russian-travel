@@ -4,7 +4,24 @@
 @import url(./__item/intro__item.css);
 
 .intro {
-  max-width: 984px;
   margin: 0 auto;
-  padding-top: 92px;
+  padding-top: 64px;
+  padding-right: 16px;
+  padding-left: 16px;
+  max-width: 984px;
+}
+
+@media screen and (min-width: 768px) {
+  .intro {
+    padding-top: 88px;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro {
+    padding-top: 92px;
+    max-width: 928px;
+  }
 }

@@ -1,3 +1,11 @@
-.place__paragraphs {
-  grid-area: paragraphs;
+.places__paragraphs {
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .places__paragraphs {
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
