@@ -1,7 +1,18 @@
 .footer__items {
-  padding-right: 18px;
+  padding-bottom: 32px;
 }
 
 .footer__items:last-of-type {
-  padding-right: 0;
+  padding-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__items {
+    padding-right: 18px;
+    padding-bottom: 0;
+  }
+
+  .footer__items:last-of-type {
+    padding-right: 18px;
+  }
 }

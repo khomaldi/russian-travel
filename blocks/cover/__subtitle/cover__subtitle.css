@@ -1,9 +1,23 @@
 .cover__subtitle {
   z-index: 1;
   margin: 0 auto;
-  max-width: 360px;
+  /*
+   * в макете было указано 288px,
+   * но тогда у меня не получилось бы текст
+   * центрировать так, как на макете,
+   * поэтому я уменьшил ширину
+   */
+  max-width: 270px;
   color: #fff;
   text-align: center;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .cover__subtitle {
+    max-width: 360px;
+    font-size: 18px;
+    line-height: 22px;
+  }
 }

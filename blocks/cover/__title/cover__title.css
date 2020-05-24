@@ -1,10 +1,24 @@
 .cover__title {
   z-index: 1;
   padding-bottom: 32px;
-  max-width: 560px;
+  /*
+   * в макете было указано 288px,
+   * но тогда у меня не получилось бы текст
+   * центрировать так, как на макете,
+   * поэтому я уменьшил ширину
+   */
+  max-width: 255px;
   color: #fff;
   text-align: center;
   font-weight: 900;
-  font-size: 72px;
-  line-height: 76px;
+  font-size: 32px;
+  line-height: 35px;
+}
+
+@media screen and (min-width: 768px) {
+  .cover__title {
+    max-width: 560px;
+    font-size: 72px;
+    line-height: 76px;
+  }
 }

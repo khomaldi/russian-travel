@@ -4,10 +4,32 @@
 @import url(./__website/places__website.css);
 @import url(./__url-heading/places__url-heading.css);
 @import url(./__link/places__link.css);
+@import url(./__paragraphs/places__paragraphs.css);
 @import url(./__paragraph/places__paragraph.css);
 
 .places {
   margin: 0 auto;
-  padding-bottom: 92px;
+  padding-bottom: 64px;
   max-width: 984px;
+}
+
+@media screen and (min-width: 720px) {
+  .places {
+    padding-bottom: 88px;
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .places {
+    padding-bottom: 92px;
+    max-width: 928px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .places {
+    padding-bottom: 92px;
+    max-width: 984px;
+  }
 }
