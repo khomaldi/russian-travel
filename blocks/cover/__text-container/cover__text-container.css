@@ -1,0 +1,10 @@
+@import url(../__title/cover__title.css);
+@import url(../__subtitle/cover__subtitle.css);
+
+.cover__text-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* margin-right: -50%; */
+  transform: translate(-50%, -50%);
+}

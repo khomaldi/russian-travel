@@ -1,0 +1,9 @@
+.places__paragraph {
+  padding-bottom: 24px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.places__paragraph:last-of-type {
+  padding-bottom: 0;
+}

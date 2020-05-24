@@ -1,0 +1,7 @@
+.header__items {
+  padding-right: 18px;
+}
+
+.header__items:last-of-type {
+  padding-right: 0;
+}

@@ -1,0 +1,9 @@
+@import url(./__overlay/cover__overlay.css);
+@import url(./__background/cover__background.css);
+@import url(./__text-container/cover__text-container.css);
+
+.cover {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1184px;
+}

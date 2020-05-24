@@ -1,0 +1,5 @@
+.places__website {
+  align-self: flex-end;
+
+  grid-area: website;
+}

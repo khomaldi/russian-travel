@@ -1,0 +1,13 @@
+.places__place {
+  display: grid;
+  padding-top: 80px;
+
+  grid-gap: 48px 40px;
+  grid-template-areas:
+    'title website'
+    'image paragraphs';
+}
+
+.places__place:first-of-type {
+  padding-top: 0;
+}

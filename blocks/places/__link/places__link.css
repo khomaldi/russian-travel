@@ -1,0 +1,14 @@
+.places__link {
+  display: inline-block;
+  padding-top: 12px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+}
+
+.places__link:hover {
+  opacity: 0.8;
+}

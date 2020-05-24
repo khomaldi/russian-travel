@@ -1,0 +1,7 @@
+.footer__items {
+  padding-right: 18px;
+}
+
+.footer__items:last-of-type {
+  padding-right: 0;
+}
