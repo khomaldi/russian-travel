@@ -6,7 +6,6 @@
 .lead {
   margin: 0 auto;
   padding-top: 48px;
-  max-width: 320px;
 }
 
 @media screen and (min-width: 768px) {

@@ -1,14 +1,13 @@
 .cover__overlay {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  padding: 33px 0;
   width: 100%;
+  background-image: url(../../../images/cover-trains.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   text-decoration: none;
 }
 
@@ -25,4 +24,22 @@
 
 .cover__overlay:hover::before {
   opacity: 0.8;
+}
+
+@media screen and (min-width: 768px) {
+  .cover__overlay {
+    padding: 115px 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover__overlay {
+    padding: 195px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__overlay {
+    padding: 245px 0;
+  }
 }

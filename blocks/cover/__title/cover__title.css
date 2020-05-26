@@ -1,6 +1,6 @@
 .cover__title {
   z-index: 1;
-  padding-bottom: 32px;
+  padding-bottom: 16px;
   /*
    * в макете было указано 288px,
    * но тогда у меня не получилось бы текст
@@ -17,6 +17,7 @@
 
 @media screen and (min-width: 768px) {
   .cover__title {
+    padding-bottom: 32px;
     max-width: 560px;
     font-size: 72px;
     line-height: 76px;
