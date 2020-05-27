@@ -1,25 +1,3 @@
-<!--
-  про горизонатальные отступы при 320px на фото-грид.
-  вам нужно выбрать device type: mobile,
-  а не desktop. скриншот: https://yadi.sk/i/REdSzzXRAvPXVg
-  
-  видите, у вас появилась полоса прокрутки справа?
-  на мобилках полоса прокрутки не занимает место на странице.
-
-  попробуйте со смартфона открыть сайт
-  https://khomaldi.github.io/russian-travel/
-
-  если я ошибаюсь, пожалуйста, поправьте меня :)
--->
-
-<!--
-  про огромные фотографии. на мой вопрос, как должны вести себя картинки
-  наставник сказал: «Тянуться по всей ширине если это широкие картинки,
-  если сетка фотографий — тянуться до полей, но тоже занимать всю ширину.
-  Вот под Куршской Косой - картинка заняла всю ширину. Значит до 768 так и будет,
-  а там перестроится макет в две колонки - картинка и текст. От 320 до следующего
-  брейкпоинта фотокарточки с photo-grid должны занимать почти всю ширину.»
--->
 <!DOCTYPE html>
 <html lang="ru">
   <head>
@@ -81,17 +59,6 @@
         <section class="places">
           <div class="places__place">
             <h2 class="places__title">Куршская коса</h2>
-            <!-- 
-              из-за line-height: 76px у заголовков блок places__website
-              располагается чуть ниже бук заголовка, что режет глаз.
-              
-              я это к тому, что о проблеме знаю, но трогать line-height не стал.
-              если это нужно исправлять не через изменение line-height, пожалуйста,
-              подскажите :)
-
-              UPD. Я делал align-self, но это не помогает. Подскажите, пожалуйста,
-              может быть, есть другой способ?
-            -->
             <div class="places__website">
               <p class="places__url-heading">url</p>
               <a class="places__link" href="http://park-kosa.ru">park-kosa.ru</a>
@@ -188,17 +155,27 @@
             <h2 class="cover__title">До Байкала «на собаках»</h2>
             <p class="cover__subtitle">
               По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.
-            </p></a
-          >
+            </p>
+          </a>
         </section>
       </main>
       <footer class="footer">
         <ul class="footer__links-container">
-          <li class="footer__items"><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
-          <li class="footer__items"><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
-          <li class="footer__items"><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
-          <li class="footer__items"><a class="footer__link" href="https://calendar.yandex.ru">Календарь</a></li>
-          <li class="footer__items"><a class="footer__link" href="https://travel.yandex.ru">Путешествия</a></li>
+          <li class="footer__items">
+            <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
+          </li>
+          <li class="footer__items">
+            <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
+          </li>
+          <li class="footer__items">
+            <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
+          </li>
+          <li class="footer__items">
+            <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
+          </li>
+          <li class="footer__items">
+            <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
+          </li>
         </ul>
         <p class="footer__copyright">© 2020. Georgii Khomaldishvili</p>
       </footer>
